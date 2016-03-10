@@ -21,6 +21,9 @@ db.on('error', function(err) {
 
 
 // Routes
+app.get('/', function(req, res) {
+  res.send("You got to the Homepage!")
+});
 
 
 //Save to DB

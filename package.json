@@ -1,0 +1,27 @@
+{
+  "name": "mongo-wed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpetro07/mongo-wed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpetro07/mongo-wed/issues"
+  },
+  "homepage": "https://github.com/dpetro07/mongo-wed#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongojs": "^2.3.0",
+    "morgan": "^1.7.0",
+    "request": "^2.69.0"
+  }
+}
